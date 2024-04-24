@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnAddToList"
@@ -24,7 +25,8 @@
     <TextView
         android:id="@+id/tvOutput"
         android:layout_width="match_parent"
-        android:layout_height="130dp" />
+        android:layout_height="130dp"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnTotal"
@@ -58,12 +60,13 @@
         android:id="@+id/btnClear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#8A9E86"
+        android:backgroundTint="#6E716D"
         android:text="@string/clear" />
 
     <TextView
         android:id="@+id/tvOutput2"
         android:layout_width="match_parent"
-        android:layout_height="119dp" />
+        android:layout_height="119dp"
+        android:textSize="30sp" />
 
 </LinearLayout>
